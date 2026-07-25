@@ -61,5 +61,6 @@ python -m backend.main
 
 | Version | Date       | Description                                  |
 |---------|------------|----------------------------------------------|
-| v1.0.1  | 2026-07-25 | Fix deps: separate Kivy, loose pins, aiofiles |
-| v1.0.0  | 2026-07-25 | Initial project scaffold                     |
+| v1.0.2  | 2026-07-25 | Fix passlib/bcrypt incompat, JSONFormatter fmt |
+| v1.0.1  | 2026-07-25 | Fix deps: separate Kivy, loose pins, aiofiles  |
+| v1.0.0  | 2026-07-25 | Initial project scaffold                      |

@@ -68,7 +68,7 @@ def setup_logging(log_file: str = "logs/app.log", level: str = "DEBUG") -> None:
         encoding="utf-8",
     )
     file_handler.setLevel(logging.DEBUG)
-    file_handler.setFormatter(JSONFormatter(LOG_DATE_FORMAT))
+    file_handler.setFormatter(JSONFormatter())
     root_logger.addHandler(file_handler)
 
     _LOG_CONFIGURED = True
