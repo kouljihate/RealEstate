@@ -1,5 +1,5 @@
-VERSION = "1.0.0"
-BUILD = 1
+VERSION = "1.0.1"
+BUILD = 2
 
 API_PREFIX = "/api/v1"
 

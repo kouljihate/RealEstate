@@ -59,6 +59,7 @@ python -m backend.main
 
 ## Build Log
 
-| Version | Date       | Description              |
-|---------|------------|--------------------------|
-| v1.0.0  | 2026-07-25 | Initial project scaffold |
+| Version | Date       | Description                                  |
+|---------|------------|----------------------------------------------|
+| v1.0.1  | 2026-07-25 | Fix deps: separate Kivy, loose pins, aiofiles |
+| v1.0.0  | 2026-07-25 | Initial project scaffold                     |

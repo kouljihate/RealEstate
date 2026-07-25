@@ -1,3 +1,6 @@
-kivy>=2.3.0
-kivymd>=1.1.1
-requests>=2.31.0
+# Kivy requires Python <= 3.13 for pre-built wheels
+# Install with: pip install kivy kivymd requests
+# On Android use buildozer which handles deps automatically
+kivy
+kivymd
+requests
