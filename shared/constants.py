@@ -1,0 +1,20 @@
+VERSION = "1.0.0"
+BUILD = 1
+
+API_PREFIX = "/api/v1"
+
+PAGINATION_DEFAULT_PAGE = 1
+PAGINATION_DEFAULT_SIZE = 20
+PAGINATION_MAX_SIZE = 100
+
+PASSWORD_MIN_LENGTH = 8
+PASSWORD_MAX_LENGTH = 128
+
+PHOTO_MAX_SIZE_MB = 10
+VIDEO_MAX_SIZE_MB = 100
+
+ALLOWED_PHOTO_EXTENSIONS = {".jpg", ".jpeg", ".png", ".webp"}
+ALLOWED_VIDEO_EXTENSIONS = {".mp4", ".mov", ".avi"}
+
+LOG_FORMAT = "%(asctime)s | %(levelname)-8s | %(name)s | %(message)s"
+LOG_DATE_FORMAT = "%Y-%m-%d %H:%M:%S"

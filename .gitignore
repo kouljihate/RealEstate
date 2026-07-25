@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Environment
+.env
+*.env.local
+
+# MongoDB data
+data/
+
+# Logs
+logs/*.log
+logs/*.log.*
+
+# Media uploads
+media/photos/*
+media/videos/*
+!media/photos/.gitkeep
+!media/videos/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+web/node_modules/
+web/dist/
+
+# Android / Kivy
+mobile/*.spec
+mobile/bin/
+mobile/obj/
+mobile/*.apk
+mobile/*.aab
+
+# Test
+.coverage
+htmlcov/
+.pytest_cache/
